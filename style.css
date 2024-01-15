@@ -1,0 +1,76 @@
+*{
+    background-color: black;
+    color:aliceblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    
+}
+
+
+
+
+.addBookToLibrary{
+    
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    color:black;
+}
+
+
+.form-container{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    display: none;
+    position: sticky;
+    border: 2px solid aliceblue;
+    margin: auto;
+
+}
+.Form{
+    width:200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    font-size: 22px;
+    
+
+    
+}
+
+.Form input{
+    font-size: 18px;
+    outline: none;
+    border-color: aliceblue;
+    padding:10px;
+    caret-color: aliceblue;
+    margin: 10px;
+    
+}
+
+
+.form-container button{
+    
+}
+
+.newDiv{
+    border: 2px solid white;
+    width: 300px;
+    height:70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
+    
+}
